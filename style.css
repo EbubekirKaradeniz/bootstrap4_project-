@@ -1,0 +1,51 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #e74c3c;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e74c3c, #f5b7b1);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
